@@ -4,7 +4,102 @@
     box-sizing: border-box;
 }
 
-
-.menu{
-    text-decoration: none;
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    background-position: center;
+    background-size: 1200px;
+    background-image:url(./Assets/background.png)
+    
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portifolio{
+    color: white;
+    font-size: 40px;
+}
+
+.portifolio span {
+    color: #f9004d;
+}
+
+a{
+    color: white;
+}
+li{
+    display: inline-flex;
+}
+.menu{
+    list-style: none;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;   
+}
+.menu:hover{
+    color: #f9004d;
+    transition: 1s;
+}
+
+.divNome{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.divNome span{
+    color: #f9004d;
+}
+.sobreMim{
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #000000;
+}
+
+.sobreMim img{
+    height:400px;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-right: 40px;
+
+}
+
+.sobreMim h2{
+    color: white;
+    font-size: 75px;
+}
+.sobreMim p{
+    color: white;
+    font-size: 18px;
+}
+
+.sobreMim button{
+    color: white;
+    background-color: #f9004d;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sobreMim button:hover{
+    background-color: black;
+    border: 3px solid #f9004d;
+    transition: 0.7s;
+}
+
+
